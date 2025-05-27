@@ -57,13 +57,30 @@ int main()
     s[len - 1] = 's';
     cout << s;
 
-    // for loop
-    int i;
+    //for loop
+    int i = 1;
     for (i = 0; i < 25; i += 5)
     {
         cout << i << endl;
     }
     cout << i;
+
+    //while loop
+    while (i < 2){
+        cout<<i<<endl;
+        i = i + 1;
+    }
+
+    //do while loop
+    do
+    {
+        cout<<i<<endl;
+        i = i+1;
+    } while (i< 1);
+    
+    
+    cout<<i<<endl;
+    
 
     return 0;
 }
